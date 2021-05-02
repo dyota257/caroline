@@ -5,13 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It's Caroline's Birthday!</title>
-
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    
     <style>
         .key {
             font-weight: bold;
         }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                margin: none;
+            }
+        }
+
+        @media only screen and (min-width: 600px) {
+            body {
+                margin-left: 30%;
+                margin-right: 30%;
+                margin-top: 7.5%;
+            }
+        }
         body {
+            background-color: #ffe9dc;
+            color: #ae0001;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .signature{
+            
+            font-family: 'Dancing Script', 'Brush Script MT', serif;
+            font-size: 2em;
         }
     </style>
 </head>
@@ -21,7 +46,7 @@
     <h2>Here are the key details:</h2>
     <table>
         <tr><td class="key">Address</td><td>
-            <a href="https://goo.gl/maps/iABdBrbyw4rPBxkQ6">106A Mackie St, Victoria Park, 6100</a>
+            <a href="https://goo.gl/maps/iABdBrbyw4rPBxkQ6" target="_blank">106A Mackie St, Victoria Park, 6100</a>
         </td></tr>
         <tr><td class="key">Date</td><td>Sunday 16th May, 2021</td></tr>
         <tr><td class="key">Time</td><td>10.30am onwards</td></tr>
@@ -31,14 +56,16 @@
     <p>We'll be making wontons (boiled and deep-fried alike) and eating them in noodle soup.</p>
     <p>Video games available to play on request!</p>
     
-    <h2>No need to bring gifts or other food!</h2>
+    <h2>No need to bring gifts!</h2>
     <p>Your presence is gift enough. However, if you'd like to get something for Caroline in lieu, please consider donating to the cause 
-        <a href="dryspell.html">Dry Spell for MATES</a>
+        <a href="dryspell.html" target="_blank">Dry Spell for MATES</a>
         that she is supporting for the months of May and June. 
     </p>
   
     
     <p>Hope to see you there!</p>
+
+    <p class="signature">Dyota and Caroline</p>
 
     
 </body>
